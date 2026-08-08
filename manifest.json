@@ -1,0 +1,9 @@
+{
+    "name": "Study Hub",
+    "short_name": "StudyHub",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#f5f6f8",
+    "theme_color": "#f5f6f8",
+    "description": "簿記、計量経済学、経済ニュース、Javaを学習するための自分専用アプリ"
+}
