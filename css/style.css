@@ -89,4 +89,17 @@ button:active {
         font-size: 32px;
     }
 
+}/* トップページの学習カテゴリー用ボタン */
+.subject-button {
+    min-height: 80px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* スマホではさらに押しやすく */
+@media (max-width: 599px) {
+    .subject-button {
+        min-height: 85px;
+        font-size: 22px;
+    }
 }

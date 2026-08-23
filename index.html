@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Hub</title>
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="manifest" href="/StudyHub/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -16,18 +17,21 @@
 
     <p>今日の学習入口</p>
 
-    <button onclick="location.href='pages/java.html'">
-        ☕ Java
-    </button>
-    <button onclick="location.href='pages/boki.html'">
-        📕 簿記2級
-    </button>
-    <button onclick="location.href='pages/econometrics.html'">
-        📊 計量経済学
-    </button>
-    <button onclick="location.href='pages/news.html'">
-        📰 経済ニュース
-    </button>
+    <button class="subject-button" onclick="location.href='...'">
+    📚 簿記2級
+</button>
+
+<button class="subject-button" onclick="location.href='...'">
+    ☕ Java
+</button>
+
+<button class="subject-button" onclick="location.href='...'">
+    📊 経済
+</button>
+
+<button class="subject-button" onclick="location.href='...'">
+    📰 経済ニュース
+</button>
 
     <script>
     if ("serviceWorker" in navigator) {
